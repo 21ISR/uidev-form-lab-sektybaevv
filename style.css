@@ -76,3 +76,39 @@ input:focus, select:focus {
     display: flex;
     align-items: center;
 }
+
+button, .submit {
+    width: 100%;
+    padding: 16px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+button:hover, .submit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(16, 51, 206, 0.4);
+}
+
+.or {
+    text-align: center;
+    margin: 20px ;
+    position: relative;
+    color: #999;
+    font-size: 12px;
+}
+
+.or::before, .or::after {
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    content: '';
+    background: #e0e0e0;
+}
+
+.or::before {
+    left: 0;
+}
+
