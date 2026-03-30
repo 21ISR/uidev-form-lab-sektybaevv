@@ -1,0 +1,153 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card, .register-card {
+    background: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+    overflow: hidden;
+}
+
+.header-bg {
+    background: #667eea;
+    padding: 40px 40px 30px 40px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.pod {
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+.form-content {
+    padding: 30px 30px 30px 40px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #4a5568;
+    font-size: 14px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus, select:focus {
+    border-color: #667eea;
+    outline: none;
+    box-shadow: #0b0c0e
+}
+
+.formcheck {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.formcheck input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    margin-bottom: 6px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+button, .submit {
+    width: 100%;
+    padding: 16px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+button:hover, .submit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(16, 51, 206, 0.4);
+}
+
+.or {
+    text-align: center;
+    margin: 20px ;
+    position: relative;
+    color: #999;
+    font-size: 12px;
+}
+
+.or::before, .or::after {
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    content: '';
+    background: #e0e0e0;
+}
+
+.or::before {
+    left: 0;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: #e5e9f0;
+    display: flex;
+}
+
+.link {
+    color: #667eea;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.text {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+
